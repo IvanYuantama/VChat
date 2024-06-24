@@ -123,7 +123,7 @@ const Chat = () => {
     }).then(async (result) => {
       if (result.isConfirmed) {
         try {
-          await axios.delete(`http://localhost:8463/chat/delete/${chatId}`);
+          await axios.delete(`${import.meta.env.VITE_API_URL}/chat/delete/${chatId}`);
           setChats(chats.filter((chat) => chat.id !== chatId));
           Swal.fire("Deleted!", "Your chat has been deleted.", "success");
         } catch (error) {
