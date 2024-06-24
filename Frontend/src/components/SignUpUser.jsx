@@ -72,7 +72,7 @@ const SignUpUser = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen">
+    <div className="flex justify-center items-center min-h-screen mx-5">
       <div className="p-8 rounded shadow-md w-full max-w-md flex flex-col justify-center" style={{ backgroundColor: "#E6E6FA" }}>
         <h2 className="text-2xl font-bold mb-6 text-center" style={{ color: "#4B0082" }}>
           Sign Up
