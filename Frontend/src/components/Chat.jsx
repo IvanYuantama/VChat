@@ -144,6 +144,7 @@ const Chat = () => {
             Add Chat:
           </label>
           <textarea id="newChat" value={newChat} onChange={handleInputChange} className="w-full p-2 border border-gray-300 rounded-md resize-none focus:outline-none focus:ring focus:ring-indigo-500" rows="2" required></textarea>
+          <p className="text-sm text-indigo-500">Jika mau add chat, masukkan chat idnya terlebih dahulu</p>          
           <button type="submit" className="mt-2 px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-indigo-500">
             Add Chat
           </button>
